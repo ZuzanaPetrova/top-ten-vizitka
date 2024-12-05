@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.vizitka-levy {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.vizitka-pravy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vizitka {
+  display: flex;
+  width: 489px;
+  height: 259px;
+  background-color: #f2ecec;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.vizitka-pravy img {
+  width: 250px;
+  height: 213px;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+p {
+  font-size: 16px;
+  margin: 0;
+}
+.pozice {
+  font-size: 15px;
+}
+.vizitka-jmeno {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.vizitka-adresa {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
